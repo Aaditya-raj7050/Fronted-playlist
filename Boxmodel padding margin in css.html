@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0 ;
+            margin: 0;
+        }
+        body{
+            background-color: #2a60a554;;
+        }
+
+        .container{
+            color : blue ;
+            background-color: rgb(222, 205, 188);
+            border : 3px solid rgb(174, 174, 223) ;
+            /* padding: 10px; */
+            /* padding-top: 10px ; */
+            /* padding-bottom: 20px; */
+            /* padding-left: 40px; */
+            /* padding : 10px 20px 11px 55px ;n   padding/margin top right bottom left */
+            padding : 50px 10px ;  /* padding: y(top/bottom) x(left/right) */
+
+            /* margin: 10px ; */
+            margin-top: 10px;  
+            margin-right: 20px ;
+            margin-left: 10px ;
+            margin-bottom: 20px ;
+
+            border-radius: 18px ;
+            width : 500px ;
+            box-sizing: border-box;
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <h3>This is my heading</h3>
+
+    <div class="container">
+        <h5>This is also a heading</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, aut!</p>
+    </div>
+
+    <div class="container"><br>
+        <h5>This is also a heading</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, aut!</p>
+    </div>
+
+    <div class="container"><br>
+        <h5>This is also a heading</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, aut!</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std ; 
+int main(){
+
+    pair<int,int>p ; 
+   
+
+    // p.first = 10 ; 
+    // p.second = 20 ; 
+
+    p = make_pair(10,20) ; 
+    cout << p.first << endl ; 
+    cout << p.second << endl ;
+
+    pair<pair<int,int>,int>>p1 ; 
+
+    p.first.first = 5 ; 
+    p.first.second = 4 ; 
+    p.second = 6 ; 
+    cout << p.first.first << endl ; 
+    cout << p.frist.second << endl ; 
+    cout << p.second << endl ;
+
+    pair<int,int>p2 ; 
+    p2 = p ; 
+
+    cout << p2.first << endl ; 
+    cout << p2.second << endl ;
+
+
+
+
+    // cout << p ;
+
+    return 0 ;
+}

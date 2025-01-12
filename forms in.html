@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Form in html</title>
+</head>
+<!--For next line we can use br tags but it is also a another tag that is div tags-->
+   <!-- For horizontal line we can use hr tags -->
+   <!-- for creating a box in form we can write input and press enter -->
+
+   <!-- In HTML There are so many forms like , text -> name,add,fathers name,roll no., 
+    and email -> for email , submit -> for submit forms , date -> for finding date,
+    number -> Age,how many brothers and sisters, 
+    for check eligible we can write checkbox
+    and also one tag is Radion tag used for select any one,
+    one tag is radio that is used for edit the form
+    one more tag is textarea -> means write about yourself
+    select is also  a tag used for various option and select any one -->
+
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+        <div>
+            Name : <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Roll no: <input type="text" name="myRoll">
+        </div>
+        <br>
+        <div>
+           Email : <input type="email" name="myEmail" >
+        </div>
+        <br> 
+        <div>
+            Date :<input type="date" name="myDate" id="">
+        </div>
+        <br>
+        <div>
+          Age :<input type="number" name="myBonus" id="">
+        </div>
+        <br>
+        <div>
+            Are you eligible or not :<input type="checkbox" name="myeligibility" id="">
+        </div>
+        <br>
+        <div>
+            Gender - Male : <input type="radio" name="myGender" id="">
+            Female : <input type="radio" name="myGender" id="">
+            other : <input type="radio" name="myGender" id="">
+            </div>
+            <br>
+            <div>
+                Write about yourself <br>: <textarea name=""cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <label for="Degree"> Degree</label>
+            <select name="myDegree" id="Degree">
+                <option value="B-Tech">B-tech</option>
+                <option value="B-Arch">B-Arch</option>
+                <option value="BBA">BBA</option>
+                <option value="Bsc">Bsc</option>
+
+            </select>
+            <div><br>
+               Click  <input type="submit" value="submit now">
+            </div>
+            <br>
+            <div>
+                Edit now <input type="reset" value="Reset now">
+            </div>
+        </form>   
+    </body>
+</html>
